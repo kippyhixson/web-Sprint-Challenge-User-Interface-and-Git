@@ -66,6 +66,27 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 100%;
+    background: white;
+    display:inline-flex;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+   
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,13 +125,17 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* I do not understand why this doesn't work. I have spent 3 hours just trying to color these boxes. I have been on multiple websites and material in canvas. I researched multiple class selectors, specificity, even found the "!important" but could not get it to work. I know I could do it inline on html but the instructions say not to.*/
+.middle-content .boxes .box .teal {
+    background-color:teal;
+} 
 
 .bottom-content {
     display: flex;
@@ -124,6 +149,24 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* specific to about page*/
+
+.top-pic{
+   
+}
+.top{
+    justify-content: center;   
+}
+
+.top-middle{
+    
+    
+    
+}
+.bottom-middle{
+    
 }
 
 footer {
