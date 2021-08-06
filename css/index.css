@@ -132,7 +132,7 @@ header nav a {
     align-items: center;
     justify-content: center;
 }
-/* I do not understand why this doesn't work. I have spent 3 hours trying to color these boxes. I have been on multiple websites and material in canvas. I researched multiple class selectors, specificity, even found the "!important" but could not get it to work. I know I could do it inline on html but the instructions say not to.*/
+/* I do not understand why this doesn't work. I have spent 3 hours just trying to color these boxes. I have been on multiple websites and material in canvas. I researched multiple class selectors, specificity, even found the "!important" but could not get it to work. I know I could do it inline on html but the instructions say not to.*/
 .middle-content .boxes .box .teal {
     background-color:teal;
 } 
@@ -149,6 +149,24 @@ header nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* specific to about page*/
+
+.top-pic{
+   
+}
+.top{
+    justify-content: center;   
+}
+
+.top-middle{
+    
+    
+    
+}
+.bottom-middle{
+    
 }
 
 footer {
