@@ -125,13 +125,17 @@ header nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* I do not understand why this doesn't work. I have spent 3 hours trying to color these boxes. I have been on multiple websites and material in canvas. I researched multiple class selectors, specificity, even found the "!important" but could not get it to work. I know I could do it inline on html but the instructions say not to.*/
+.middle-content .boxes .box .teal {
+    background-color:teal;
+} 
 
 .bottom-content {
     display: flex;
